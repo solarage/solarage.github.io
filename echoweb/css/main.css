@@ -133,7 +133,7 @@ h1{
 	color:#fff;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "RobotoCondensedLight";
+	font-family: "RobotoLight";
 }
 
 .slider_container img{
@@ -210,7 +210,7 @@ section.order{
 	margin: 10px auto 15px;
 	text-align: center;
 	font-weight: normal;
-	font-family: "RobotoCondensedBold";
+	font-family: "RobotoBold";
 	text-transform: uppercase;
 }
 .blog_item img{
@@ -219,7 +219,7 @@ section.order{
 }
 .blog_item h3{
 	text-transform: uppercase;
-	font-family: "RobotoCondensedRegular";
+	font-family: "RobotoRegular";
 	margin-bottom: 10px;
 }
 .blog_item h3 a{
@@ -261,7 +261,7 @@ section.order{
 	margin: 10px auto 15px;
 	text-align: center;
 	font-weight: normal;
-	font-family: "RobotoCondensedBold";
+	font-family: "RobotoBold";
 	text-transform: uppercase;
 }
 .modal-body{
