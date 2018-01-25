@@ -2,6 +2,7 @@
 *.tmp
 *~
 *.bak
+*.log
 
 # Секретка кроме free.txt
 /secret/*
