@@ -1,8 +1,0 @@
-# Временные файлы
-*.tmp
-*~
-*.bak
-
-# секретка кроме free.txt
-/secret/*
-!/secret/free.txt
