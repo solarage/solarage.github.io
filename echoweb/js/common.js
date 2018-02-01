@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
 	$(".auth_buttons").click(function(){
@@ -7,6 +8,11 @@ $(document).ready(function() {
 	$(".main_menu_button").click(function(){
 		$(".main_menu ul").slideToggle();
 	});
+
+	//Preloader
+	//
+	var $preloader = $('#page-preloader');
+ 	$preloader.delay(500).fadeOut('slow');
 
 
 	//Попап менеджер FancyBox
@@ -28,8 +34,8 @@ $(document).ready(function() {
 
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
-	$("a.scroll").click(function() {
-		$.scrollTo($(".div"), 800, {
+	$(".scroll").click(function() {
+		$.scrollTo($(".main_footer"), 800, {
 			offset: -90
 		});
 	});
