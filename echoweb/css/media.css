@@ -21,23 +21,36 @@
 @media only screen and (max-width : 768px) {
 	.top_links{
 		display:none;
-		position: absolute;
-		background-color: #585d61;
+		position: absolute;	
 		vertical-align: middle;
 		width:100%;
 		margin-top: 15px;
 		padding: 20px;
+		background: rgba(0,142,189,1);
+		background: -moz-linear-gradient(left, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,142,189,1)), color-stop(0%, rgba(0,116,154,1)), color-stop(11%, rgba(0,109,144,1)), color-stop(100%, rgba(0,50,66,1)));
+		background: -webkit-linear-gradient(left, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		background: -o-linear-gradient(left, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		background: -ms-linear-gradient(left, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		background: linear-gradient(to right, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008ebd', endColorstr='#003242', GradientType=1 );
 	}
 	.main_menu ul {
 		display: none;
-		background-color: #3797bf;
 		position: absolute;
 		width:100%;
+		background: rgba(0,142,189,1);
+		background: -moz-linear-gradient(left, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,142,189,1)), color-stop(0%, rgba(0,116,154,1)), color-stop(11%, rgba(0,109,144,1)), color-stop(100%, rgba(0,50,66,1)));
+		background: -webkit-linear-gradient(left, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		background: -o-linear-gradient(left, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		background: -ms-linear-gradient(left, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		background: linear-gradient(to right, rgba(0,142,189,1) 0%, rgba(0,116,154,1) 0%, rgba(0,109,144,1) 11%, rgba(0,50,66,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008ebd', endColorstr='#003242', GradientType=1 );
 	}
 	.main_menu ul li {
 		display: block;
 	}
-
 }
 
 /* Extra Small Devices, Phones */
