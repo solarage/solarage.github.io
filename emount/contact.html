@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Emount</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"> -->
+</head>
+<body>
+	<header>
+		<div class="logo"><span>Emount</span><a href="index.html"><img class="graphicLogo" src="img/logo01.png" alt="Logo"></a></div>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="services.html">Services</a>
+				<a href="projects.html">Projects</a>
+				<a href="blog.html">Blog</a>
+				<a href="contact.html">Contact</a>
+				<a id="menu" href="#" class="icon">&#9776;</a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="title"><h3>Visit us at:</h3>
+		Moscow, Russia</div>
+		<div id="map"></div>
+		<div class="title"><h3>Contact us</h3></div>
+		<form class="form">
+			<p><input type=text name="name" class="feedback-input" placeholder="Add your name"></p>
+			<p><input type=email name="email" class="feedback-input" placeholder="Add your email"></p>
+			<p><input type=tel name="tel" class="feedback-input" placeholder="Add a contact number"></p>
+			<p><textarea type=text id="comment" class="feedback-input" placeholder="Message"></textarea></p>
+			<input type="submit" value="Submit" class="button-submit">
+		</form>
+	</main>
+	<footer>
+		<nav>
+			<div class="footernav">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="services.html">Services</a>
+				<a href="projects.html">Projects</a>
+				<a href="blog.html">Blog</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</nav>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo01.png" class="graphicLogo" alt="Logo"></a>
+		</div>
+		<div class="social">
+			<a href="#"><img src="img/face.png" alt=""></a>
+			<a href="#"><img src="img/vk.png" alt=""></a>
+			<a href="#"><img src="img/twit.png" alt=""></a>
+			<a href="#"><img src="img/insta.png" alt=""></a>
+			<a href="#"><img src="img/tele.png" alt=""></a>
+			<a href="#"><img src="img/pin.png" alt=""></a>
+		</div>
+		<p>© 2018 Emount</p>
+	</footer>
+
+
+	<script>
+		function initMap() {
+			var coord = {
+				lat: 55.748,
+				lng: 37.462
+			};
+			var map = new google.maps.Map(document.getElementById("map"), {
+				zoom: 10,
+				center: coord
+			});
+			var marker = new google.maps.Marker({
+				position: coord,
+				map: map
+			});
+
+			google.maps.event.addListener(marker, 'click', function() {
+				infowindow.open(map.marker);
+			});
+			google.maps.event.addDomListener(window, "resize", function() {
+				var center = map.getCenter();
+				google.maps.event.trigger(map, "resize");
+				map.setCenter(center);
+			})
+		}
+
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?&callback=initMap"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
