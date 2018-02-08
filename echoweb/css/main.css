@@ -133,7 +133,8 @@ body {
 	display: block;
 	padding: 15px 0;
 	color: #fff;
-	font-family: "NautilusPompilius";
+	font-family: 'Lobster', cursive;
+	/*font-family: "NautilusPompilius";*/
 	font-size: 40px;
 	text-align: center;
 }
