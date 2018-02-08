@@ -72,7 +72,7 @@ body {
 }
 .top_header{
 	padding-bottom: 10px;
-	background: url(../images/background1.jpg) no-repeat center;
+	background: url(../images/background1.jpg) #003649 no-repeat center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 500px;
