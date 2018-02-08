@@ -79,6 +79,9 @@ body {
 	width: 100%;
 
 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .header_topline{
 	padding: 15px 0;
