@@ -338,7 +338,8 @@ section.order{
 .modal-body{
 	max-width: 800px;
 }
-.modal-Policy a{
+
+.modal-Policy button{
 	max-width: 100px;
 	margin: 20px auto 10px;
 }

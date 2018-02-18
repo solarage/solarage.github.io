@@ -1,4 +1,11 @@
 
+var modalBtn = document.getElementById('modal-close');
+modalBtn.onclick = function closeModal() {
+	jQuery.fancybox.close()
+};
+
+
+
 $(document).ready(function() {
 
 	$(".auth_buttons").click(function(){
@@ -8,6 +15,7 @@ $(document).ready(function() {
 	$(".main_menu_button").click(function(){
 		$(".main_menu ul").slideToggle();
 	});
+
 
 	//Preloader
 	//
