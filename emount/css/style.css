@@ -42,7 +42,7 @@ nav {
 	color: #000;
 	text-align: center;
 	padding: 15px 15px;
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
 }
 .topnav a:hover {
@@ -436,7 +436,7 @@ footer {
 }
 footer a {
 	color: black;
-	font-size: 14px;
+	font-size: 20px;
 	text-transform: uppercase;
 	margin-left: 10px;
 }
