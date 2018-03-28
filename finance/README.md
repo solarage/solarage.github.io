@@ -1,2 +1,0 @@
-# Finance
-current exchange rates
