@@ -6,4 +6,4 @@
 
 # Секретка кроме free.txt
 /secret/*
-!/secret/free.txt
+!/secret/right.txt
