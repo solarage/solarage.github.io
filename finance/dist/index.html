@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Finance</title>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<!-- <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+
+	
+	<header class="header">
+			<div class="container search-block">
+				<div class="row">
+					<div class="col-sm-12 col-md-8 order-md-2 d-none d-sm-block">
+						<div class="row">
+							<div class="col-2 col-sm-2 col-md-2"><p><a href="#">USD</a></p></div>
+							<div class="col-2 col-sm-2 col-md-2"><p><a href="#">EUR</a></p></div>
+							<div class="col-2 col-sm-2 col-md-2"><p><a href="#">USD</a></p></div>
+							<div class="col-2 col-sm-2 col-md-2"><p><a href="#">EUR</a></p></div>
+							<div class="col-2 col-sm-2 col-md-2"><p><a href="#">Bitcoin</a></p></div>
+							<div class="col-2 col-sm-2 col-md-2"><p><a href="#">Ethereum</a></p></div>
+						</div>
+					</div>
+					<div class="col-10 col-sm-6 col-md-3 order-md-1">
+						<p class="city">Город</p>
+					</div>
+					<div id="search" class="search"></div>
+				</div>
+			</div>
+
+			<nav id="mainmenu" class="navbar navbar-expand-md navbar-light bg-light "> 
+				<div class="container">
+					 	<div class="navbar-header">
+								<a href="" class="logo"><img src="" alt="Logo"></a>
+						</div>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"> 
+							<span class="navbar-toggler-icon"></span> 
+						</button> 
+					 
+					 
+						<div class="collapse navbar-collapse justify-content-center" id="mainNavbar"> 
+
+							<ul class="navbar-nav"> 
+								<li class="nav-item active"> 
+									<a class="nav-link" href="#">Главная</a> 
+								</li> 
+								<li class="nav-item dropdown has-megamenu"> 
+					 
+									<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" d="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Курсы валют</a> 
+					 
+									<ul class="dropdown-menu submenu1 multi-column columns-3 "> 
+					 
+										<div class="container "> 
+											<div class="row"> 
+												<div class="col-12 col-md-4"> 
+													<ul class="multi-column-dropdown"> 
+														<li> 
+															<a class="dropdown-header" href="#"> 
+																<h5>Курсы валют</h5> 
+															</a> 
+														</li> 
+														<div class="dropdown-divider"></div> 
+														<li><a class="dropdown-item" href="#">Курс доллара</a></li> 
+														<li><a class="dropdown-item" href="#">Курс евро</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item"="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+					 
+													</ul> 
+												</div> 
+												<div class="col-12 col-md-4"> 
+													<ul class="multi-column-dropdown"> 
+														<li> 
+															<a class="dropdown-header" href="#"> 
+																<h5>Курсы криптовалют</h5> 
+															</a> 
+														</li> 
+														<div class="dropdown-divider"></div> 
+														<li><a class="dropdown-item" href="#">Курс Биткоина</a></li> 
+														<li><a class="dropdown-item" href="#">Курс эфира</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+													</ul> 
+												</div> 
+												<div class="col-12 col-md-4"> 
+					 
+													<ul class="multi-column-dropdown"> 
+														<li> 
+															<a class="dropdown-header" href="#"> 
+																<h5> 
+																	Курсы ЦБ РФ</h5> 
+															</a> 
+														</li> 
+					 
+														<div class="dropdown-divider"></div> 
+														<li><a class="dropdown-item" href="#">Архив ЦБ РФ</a></li> 
+					 
+														<li><a class="dropdown-item" href="#">График изменения курса ЦБ РФ</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+													</ul> 
+												</div> 
+											</div> 
+										</div> 
+									</ul> 
+								</li> 
+					 
+								<li class="nav-item dropdown has-megamenu"> 
+					 
+									<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" d="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Банки</a> 
+					 
+									<ul class="dropdown-menu submenu1 multi-column columns-3 "> 
+					 
+										<div class="container "> 
+											<div class="row"> 
+												<div class="col-12 col-md-4"> 
+													<ul class="multi-column-dropdown"> 
+														<li> 
+															<a class="dropdown-header" href="#"> 
+																<h5>Submenu</h5> 
+															</a> 
+														</li> 
+														<div class="dropdown-divider"></div> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item"="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+					 
+													</ul> 
+												</div> 
+												<div class="col-12 col-md-4"> 
+													<ul class="multi-column-dropdown"> 
+														<li> 
+															<a class="dropdown-header" href="#"> 
+																<h5>Submenu</h5> 
+															</a> 
+														</li> 
+														<div class="dropdown-divider"></div> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+													</ul> 
+												</div> 
+												<div class="col-12 col-md-4"> 
+					 
+													<ul class="multi-column-dropdown"> 
+														<li> 
+															<a class="dropdown-header" href="#"> 
+																<h5> 
+																	Submenu</h5> 
+															</a> 
+														</li> 
+					 
+														<div class="dropdown-divider"></div> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+					 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+														<li><a class="dropdown-item" href="#">Submenu</a></li> 
+													</ul> 
+												</div> 
+											</div> 
+										</div> 
+									</ul> 
+								</li> 
+					 
+								<li class="nav-item dropdown has-megamenu"> 
+									<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" d="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Сервисы</a> 
+					 
+									<ul class="dropdown-menu submenu2 multi-column columns-1 "> 
+					 
+										<div class="container "> 
+											<div class="row"> 
+												<div class="col-12"> 
+													<ul class="multi-column-dropdown"> 
+														<li> 
+															<a class="dropdown-header" href="#"> 
+																<h5>Сервисы</h5> 
+															</a> 
+														</li> 
+														<div class="dropdown-divider"></div> 
+														<li><a class="dropdown-header" href="#">Конвертер валют онлайн</a></li> 
+														<li><a class="dropdown-header" href="#">Кредитный калькулятор</a></li>
+					 
+													</ul> 
+												</div> 
+											</div> 
+										</div> 
+									</ul> 
+								</li> 
+								<li class="nav-item"> 
+									<a class="nav-link" href="#">Контакты</a> 
+								</li> 
+							</ul> 
+						</div> 
+					</div>	
+			</nav> 
+	</header>
+	<div class="main-container">
+		<div class="section ban-top"></div>
+
+		<section class="section">
+			<div class="container currency">
+				<h2>Курсы валют</h2>
+				<div class="row">
+					<div class="col-md-12 currency-rate">
+						<table class="non-standard table">
+							<tbody>
+								<tr>
+									<th colspan="3"><a href="">Лучшие курсы в банках</a></th>
+								</tr>
+								<tr class="subtitle">
+									<td></td>
+									<td>Покупка</td>
+									<td>Продажа</td>
+								</tr>
+								<tr>
+									<td class="currency currency-usd">
+										<img src="" alt="">
+										<a href="">USD</a>
+									</td>
+									<td class="currency-value">
+										56.8
+										<a href="">Рос Банк </a>
+										<span class="curr-city">Москва</span>
+									</td>
+									<td class="currency-value">
+										56.8
+										<a href="">Рус Банк </a>
+										<span class="curr-city">Санкт-Петербург</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="currency currency-eur">
+										<img src="" alt="">
+										<a href="">EUR</a>
+									</td>
+									<td class="currency-value">
+										69.7
+										<a href="">Рос Банк </a>
+										<span class="curr-city">Москва</span>
+									</td>
+									<td class="currency-value">
+										69.45
+										<a href="">Рус Банк </a>
+										<span class="curr-city">Санкт-Петербург</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section class="section">
+			<div class="container currency">
+				<div class="row">
+					<div class="col-md-9 currency-rate">
+						<table class="non-standard table">
+							<tbody>
+								<tr>
+									<th colspan="3"><a href="">Курс ЦБ РФ</a></th>
+								</tr>
+								<tr class="subtitle">
+									<td>Курс на дату:</td>
+									<td><time datetime="2018-03-26">26.03.2018</time></td>
+								</tr>
+								<tr>
+									<td class="currency currency-usd">
+										<img src="" alt="">
+										<a href="">USD</a>
+									</td>
+									<td class="currency-value">
+										56.76
+										<span>рублей за доллар</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="currency currency-eur">
+										<img src="" alt="">
+										<a href="">EUR</a>
+									</td>
+									<td class="currency-value">
+										69.63
+										<span>рублей за евро</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-3 links">
+						<a href="" class="link">Курсы валют</a>
+						<br>
+						<a href="" class="link">Конвертер валют онлайн</a>
+						<br>
+						<a href="" class="link">Курсы криптовалют</a>
+						<br>
+						<a href="" class="link">График изменения курса ЦБ РФ</a>
+						<br>
+						<a href="" class="link">Курс Биткоина</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="section ban-top">
+			<a href=""><img src="" alt=""></a>
+		</div>
+		<div class="section">
+			<div class="container currency">
+				<div class="row">
+					<div class="col-md-12 currency-rate">
+						<div class="convert">Конвертер валют онлайн. <button id="convert-modal">Рассчитать</button></div>
+						<div id="modal" class="modal">
+							<div class="modal-content">
+								<div class="wrapper">
+						            <div class="convert-container">
+						            	<span class="modal-close">&times;</span>
+						                <form class="form">
+						                    <div id="first" class="first">
+						                        <label>Исходная валюта:</label>
+						                        <select name="from" id="from">
+						                            <option value="USD" selected="selected">Доллар США</option>
+						                            <option value="EUR">Евро</option>
+						                            <option value="RUB">Рубль</option>
+						                        </select> 
+						                    </div>
+						                    <br>
+						                    <br>
+						                    <div class="cash-container">
+						                        <label>Введите сумму: </label>
+						                        <input name="cash" id="cash" class="cash" type="text"/>
+						                    </div>
+						                    <br>
+						                    <br>
+						                    <div id="second" class="second">
+						                        <label>Расчетная валюта:</label> 
+						                        <select name="to" id="to">
+						                            <option value="USD">Доллар США</option>
+						                            <option value="EUR">Евро</option>
+						                            <option value="RUB" selected="selected">Рубль</option>
+						                        </select>
+						                    </div>
+						                </form>
+						                <br>
+						                <br>
+						                <div class="result-container">
+						                    <label><span id="result" class="result">Результат перевода: </span></label>
+						                </div>
+
+						                <div class="btnCalc-container">
+						                    <button id="calculate" class="calculate">Рассчитать</button>
+						                </div>
+						                <div class="btnChange-container">
+						                    <button id="change" class="change">→<br>←</button>
+						                </div>
+						            </div>
+						        </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section"></div>
+		<div class="section ban-top"></div>
+		<section class="section main-news"></section>
+		<section class="section wiki"></section>
+		<div class="section ban-bot"></div>
+		<div class="section article">
+			<div class="container article-top">
+				<h1>Информация об </h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos magni, quaerat esse ipsa mollitia fugit, reiciendis molestias libero, ad ducimus maxime veniam sunt beatae voluptate rerum necessitatibus iste quibusdam natus ipsam officiis accusantium. Rerum aperiam reprehenderit tempora, quibusdam. Totam nemo cupiditate voluptate, similique reprehenderit exercitationem molestiae neque ut officiis!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, excepturi. Quo impedit, soluta excepturi eum cumque cum eius, fuga distinctio suscipit <a href="">Lorem </a>architecto iure unde! Ducimus, earum, voluptate. Quibusdam dignissimos ex, eum, accusantium vel inventore consequuntur!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nam quas, adipisci temporibus asperiores. Doloremque, eveniet provident cupiditate quasi amet?</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nam quas, adipisci temporibus asperiores. Doloremque, eveniet provident cupiditate quasi amet?</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nam quas, adipisci temporibus asperiores. Doloremque, eveniet provident cupiditate quasi amet?</p>
+			</div>
+		</div>
+		<div class="section ban-bot"></div>
+
+	</div>
+
+	<footer>
+		<div class="container footer-first">
+			<div class="row">
+				<ul class="col-12 col-md-3 item">
+					<li>
+						<button class="title">Оставайтесь с нами</button>
+						<ul class="foot">
+							<li><a href="">О нас</a></li>
+							<li><a href="">Контакты</a></li>
+							<li><a href="">Карта сайта</a></li>
+							<li><a href="">Facebook</a></li>
+							<li><a href="">Вконтакте</a></li>
+							<li><a href="">Twitter</a></li>
+							<li><a href="">Google+</a></li>
+							<li><a href="">Одноклассники</a></li>
+							<li><a href="">Telegram</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="col-12 col-md-3 item">
+					<li>
+						<button class="title">Валюта</button>
+						<ul class="foot">
+							<li><a href="">Курсы валют</a></li>
+							<li><a href="">Биржи криптовалют</a></li>
+							<li><a href="">Курсы криптовалют</a></li>
+							<li><a href="">Курсы ЦБ РФ</a></li>
+							<li><a href="">Архив ЦБ РФ</a></li>
+							<li><a href="">Конвертер валют онлайн</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="col-12 col-md-3 item">
+					<li>
+						<button class="title">Банки</button>
+						<ul class="foot">
+							<li><a href="">Банки Москвы</a></li>
+							<li><a href="">Банки России</a></li>
+							<li><a href="">Рейтинг банков</a></li>
+							<li><a href="">Новости</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="col-12 col-md-3 item">
+					<li>
+						<button class="title">Сервисы</button>
+						<ul class="foot">
+							<li><a href="">Конвертер валют онлайн</a></li>
+							<li><a href="">Кредитный калькулятор</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container footer-second">
+			<div class="row">
+				<div class="logo_block col-6 col-sm-3 col-md-3">
+					<a href="" class="logo"><img src="" alt=""></a>
+				</div>
+				<div class="copyright col-6 col-sm-6 col-md-6">
+					<small>
+					© 2018
+					<span>Finance</span>
+					</small>
+					<small>Все права защищены.</small>
+					<p class="foot-info">Информация, размещённая на сайте носит информационно-справочный характер.</p>
+					<span class="hidden">info@finance.ru</span>
+				</div>
+				<div class="social col-12 col-sm-3 col-md-3">
+					<a href="" class="icon">Tele</a>
+					<a href="" class="icon">Vk</a>
+					<a href="" class="icon">Face</a>
+					<a href="" class="icon">Twit</a>
+					<a href="" class="icon">Одноклассники</a>
+					<a href="" class="icon">Google+</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/libs.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
