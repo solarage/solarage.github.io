@@ -1,5 +1,5 @@
 
-# Websites
+# Templates
 
 [https://solarage.github.io/emount/](https://solarage.github.io/emount/ "solarage.github.io/emount")
 
