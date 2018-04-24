@@ -1,0 +1,467 @@
+		header {
+			background: #0C2B64FF;
+		}
+		.main-header {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			margin-top: 30px;
+			margin-bottom: 10px; 
+			background: #0C2B64FF;
+			color: white;
+		}
+		nav li{
+			display: inline-block;
+			padding-right: 1.5rem;
+		}
+		nav a {
+			font-size: 20px;
+			color: white;
+			text-decoration: underline;
+		}
+		nav a:hover {
+			color: white;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		.person {
+			display: flex;
+			font-size: 0.9rem;
+		}
+		.person .profile {
+			padding-right: 1.5rem;
+		}
+		.person span {
+			padding-right: 1.5rem;
+		}
+		.person .exit img{
+			padding-left: 1.5rem;
+			padding-top: 10px;
+		}
+
+		.wrapper {
+			background: url("../img/player01.png") no-repeat  center,
+						url("../img/green_line.png") no-repeat 42% 31%,
+						url("../img/red_line.png") no-repeat 42% 43%,
+						url("../img/orange_line.png") no-repeat 42% 54%,
+						url("../img/Shape.png") no-repeat 65% 15%,
+						url("../img/bg01.png") no-repeat center;
+			            
+			box-sizing: border-box;
+			width: 100%;
+			min-height: 850px;
+		}
+		
+		.container {
+			max-width: 1280px;
+		}
+
+		.titles:first-child {
+			margin-top: 50px;
+		}
+		.title {
+			display: inline-block;
+			text-transform: uppercase;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 3.5rem;
+			font-weight: bold;
+			transform: scaleY(1.5);
+			color: #0C2B64FF;
+		}
+
+		.circle {
+			display: inline-block;
+			width: 4rem;
+			height: 4rem;
+			border-radius: 50%;
+			background: #2EBE00FF;
+			color: #fff;
+			text-align: center;
+			font-size: 1.7rem;
+		}
+
+		.circle-next {
+			display: inline-block;
+			width: 6.7rem;
+			height: 6.7rem;
+			border: 4px solid #0C2B64FF;
+			border-radius: 50%;
+			color: #0C2B64FF;
+			text-align: center;
+		}
+
+		.circle img {
+			position: absolute;
+			bottom: 30%;
+			right: 0%;
+		}
+
+
+		.mini-circle {
+			display: inline-block;
+			width: 0.5rem;
+			height: 0.5rem;
+			border-radius: 50%;
+			background: #2EBE00FF;
+		}
+
+		.progress-line {
+			position: relative;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
+
+		.progress-line span:nth-child(1) {
+			border: 2px solid #00DA5AFF;
+		}
+		.progress-line span:nth-child(n+6) {
+			background: #DCDCDCFF;
+			color: #888;
+			font-size: 1.7rem;
+		}
+		.subsections button{
+			width: 200px;
+			padding: 7px;
+			color: white;
+			font-size: 17px;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+		.studyBtn {
+			border: 2px solid #00DA5AFF;
+			background: #2EBE00FF;
+		}
+
+		.studyBtn:hover {
+			background: #2CA607FF;
+			font-weight: bold;
+		}
+
+		.trainingBtn {
+			border: 2px solid #F3AAA1FF;
+			background: #FF4F00FF;
+		}
+		.trainingBtn:hover {
+			background: #DD592CFF;
+			font-weight: bold;
+		}
+		.regBtn {
+			border: 2px solid #FCB400FF;
+			background: #FFA300FF;
+		}
+		.regBtn:hover {
+			background: #E68A18FF;
+			font-weight: bold;
+		}
+
+		.progress-skill {
+			width: 55%;
+			height: 20px;
+			color: white;
+			text-align: right;
+		}
+		.progress {
+			height: 25px;
+			max-width: 250px;
+			margin: 0 5%;
+			
+		}
+		.tactics-bar {
+			border: 2px solid #00DA5AFF;
+			position: relative;
+			cursor: pointer;
+		}
+		.techno-bar {
+			border: 2px solid #F3AAA1FF;
+		}
+		.hit-bar {
+			border: 2px solid #FCB400FF;
+		}
+
+		.progress-bar {
+			justify-content: flex-end;
+
+		}
+
+		.max {
+			background: green;
+		}
+		.medium {
+			background: orange;
+		}
+		.high {
+			background: yellow;
+		}
+
+		.skills {
+			text-transform: uppercase;
+			color: white;
+			text-align: left;
+		}
+		.skills .skill-name {
+			margin: 5%;
+		}
+		
+		.main-title>.row {
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
+
+		.main-title .name {
+			font-size: 25px;
+			text-transform: uppercase;
+			font-family: Arial, Helvetica, sans-serif;
+			color: white;
+			transform: scaleY(1.5);
+		}
+		.player-name {
+			margin: 5%;
+		}
+		.skill {
+			display: flex;
+			align-items: flex-start;
+		}
+		.sponsors {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 5px;
+			padding: 5px;
+			padding-left: 10%;
+			padding-right: 10%;
+			
+		}
+
+		footer {
+			background: white;
+			border-top: 2px solid #000;
+		}
+
+		.sponsors img {
+			max-width: 100%;
+		}
+
+
+		/* popup */
+
+		.notify {
+			visibility: hidden;
+			position: absolute;
+			z-index: 5;
+			bottom: 1%;
+			left: 20%;
+			width: 190px;
+			height: 25px;
+			padding: 5px;
+			background-color: #fff;
+			border: 2px solid #0C2B64FF;
+			border-radius: 5px;
+			color: #000;
+			font-size: 10px;
+
+		}
+		
+		.show {
+			visibility: visible;
+			-webkit-animation: fadeIn 1s;
+			animation: fadeIn: 1s;
+
+		}
+
+
+		@-webkit-keyframes fadeIn {
+			from{opacity: 0;}
+			to{opacity: 1;}
+		}
+		@keyframes fadeIn {
+			from{opacity: 0;}
+			to{opacity: 1;}
+		}
+
+
+		
+		/* modal */
+
+		.modal {
+			display: none;
+			position: fixed;
+			z-index: 10;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: rgba(0, 0, 0, 0.6);
+		}
+
+		.modal-content {
+			position: relative;
+			display: flex;
+			flex-direction: column; 
+			justify-content: center;
+			align-items: center;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			max-width: 480px;
+			text-align: center;
+			background: #003B93FF;
+			border: none;
+		}
+
+		.modal-close {
+		  position: absolute;
+		  display: inline-block;
+		  right: 45%;
+		  top: -20%;
+		  color: white;
+		  font-size: 5rem;
+		  cursor: pointer;
+
+		}
+		input {
+			margin-top: 10px;
+			padding: 10px 40px;
+			border-radius: 5px;
+			text-align: center;
+			background: #CDE;
+			color: #949496FF;
+			font-size: 17px;
+		}
+	
+		textarea {
+			margin-top: 10px;
+			padding: 10px 40px;
+			border-radius: 5px;
+			text-align: center;
+			height: 80px;
+			background: #CDE;
+			color: #949496FF;
+			font-size: 17px;
+		}
+
+		.submit {
+			margin-top: 15px;
+			padding: 10px 5px;
+			border: 1px solid #fff;
+			border-radius: 5px; 
+			background: #003B93FF;
+			color: white;
+			font-size: 17px;
+			cursor: pointer;
+		}
+
+		.submit:hover {
+			background: white;
+			color: #003B93FF;
+
+		}
+
+		.callback {
+			display: flex;
+			flex-direction: column;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			font-size: 20px;
+			text-transform: uppercase;
+			font-family: Arial, Helvetica, sans-serif;
+
+
+		}
+
+		.form-title {
+			font-size: 20px;
+			transform: scaleY(1.5);
+			color: white; 
+			margin-bottom: 15px;
+		}
+
+
+
+		/**/
+
+		@media screen and (max-width: 1290px) {
+			.title {
+				font-size: 2.5em;
+				transition: all 0.2s;
+			}
+			.wrapper {
+				background: url("../img/player01.png") no-repeat  center,
+					url("../img/green_line.png") no-repeat 42% 25%,
+					url("../img/red_line.png") no-repeat 42% 37%,
+					url("../img/orange_line.png") no-repeat 42% 48%,
+					url("../img/Shape.png") no-repeat 65% 15%,
+					url("../img/bg01.png") no-repeat center;
+
+			}
+			
+			.person .profile {
+				padding-right: 1rem;
+			}
+			.person span {
+				padding-right: 1rem;
+			}
+
+		}
+
+		@media screen and (max-width: 965px) {
+			.main-header {
+				flex-wrap: wrap;
+			}
+
+			.main-title>.row {
+				justify-content: flex-start;
+				align-items: flex-start;
+			}
+			.main-title .name {
+				color: #0C2B64FF;
+			}
+			.title {
+				font-size: 2em;
+				transition: all 0.2s;
+			}
+			.score {
+				display: none;
+			}
+		}
+
+		@media screen and (max-width: 620px) {
+			.progress-line {
+				flex-direction: column;
+			}
+			.circle img {
+				position: absolute;
+				bottom: 1%;
+				right: 42%;
+			}
+			.wrapper {
+				background: url("../img/player01.png") no-repeat  center,
+							url("../img/Shape.png") no-repeat 65% 15%,
+							url("../img/bg01.png") no-repeat center;
+			}
+
+
+		
+		@media screen and (max-width: 575px) {
+			.wrapper {
+				background: url("../img/player01.png") no-repeat  20% 55%,
+							url("../img/Shape.png") no-repeat 65% 35%,
+							url("../img/bg01.png") no-repeat center;
+			transition: all 0.2s;
+			}
+			.progress {
+				margin: 5% 0;
+			}
+			.skills {
+				margin-top: 20%;
+			}
+
+			.skills .skill-name {
+				margin: 0;
+				font-weight: bold;
+			}
+
+		}
