@@ -6,7 +6,12 @@
 	var notification = document.querySelector('#notify');
 
 	tacticsBar.addEventListener('mouseover', function(e) {
-		notification.classList.toggle('show');
+		notification.classList.add('show');
+	});
+
+
+	tacticsBar.addEventListener('mouseout', function(e) {
+		notification.classList.remove('show');
 	});
 	
 })();
