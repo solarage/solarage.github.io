@@ -426,7 +426,11 @@
 			.score {
 				display: none;
 			}
-		}
+
+			.notify {
+				top: 100%;
+				left: 20%;
+			}
 
 		@media screen and (max-width: 620px) {
 			.progress-line {
