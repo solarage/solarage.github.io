@@ -41,15 +41,15 @@
 
 		.wrapper {
 			background: url("../img/player01.png") no-repeat  center,
-						url("../img/green_line.png") no-repeat 42% 31%,
-						url("../img/red_line.png") no-repeat 42% 43%,
-						url("../img/orange_line.png") no-repeat 42% 54%,
+						url("../img/green_line.png") no-repeat 42% 36%,
+						url("../img/red_line.png") no-repeat 42% 49%,
+						url("../img/orange_line.png") no-repeat 42% 62%,
 						url("../img/Shape.png") no-repeat 65% 15%,
 						url("../img/bg01.png") no-repeat center;
 			            
 			box-sizing: border-box;
 			width: 100%;
-			min-height: 850px;
+			min-height: 745px;
 		}
 		
 		.container {
@@ -390,9 +390,9 @@
 			}
 			.wrapper {
 				background: url("../img/player01.png") no-repeat  center,
-					url("../img/green_line.png") no-repeat 42% 25%,
-					url("../img/red_line.png") no-repeat 42% 37%,
-					url("../img/orange_line.png") no-repeat 42% 48%,
+					url("../img/green_line.png") no-repeat 42% 29%,
+					url("../img/red_line.png") no-repeat 42% 42%,
+					url("../img/orange_line.png") no-repeat 42% 56%,
 					url("../img/Shape.png") no-repeat 65% 15%,
 					url("../img/bg01.png") no-repeat center;
 
@@ -423,6 +423,17 @@
 				font-size: 2em;
 				transition: all 0.2s;
 			}
+
+			.wrapper {
+					background: url("../img/player01.png") no-repeat  center,
+					url("../img/green_line.png") no-repeat 42% 25%,
+					url("../img/red_line.png") no-repeat 42% 38%,
+					url("../img/orange_line.png") no-repeat 42% 52%,
+					url("../img/Shape.png") no-repeat 65% 15%,
+					url("../img/bg01.png") no-repeat center;
+
+			}
+			
 			.score {
 				display: none;
 			}
