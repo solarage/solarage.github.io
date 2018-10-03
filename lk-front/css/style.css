@@ -226,11 +226,11 @@
 		}
 		.sponsors {
 			display: flex;
+			flex-wrap: wrap;
 			justify-content: space-between;
 			align-items: center;
 			margin-top: 5px;
 			padding: 5px;
-			
 		}
 
 		footer {
@@ -479,4 +479,12 @@
 				font-weight: bold;
 			}
 
+			.sponsors {
+				justify-content: center;
+			}
+
+			.sponsors img {
+				padding: 5px;
+			}
+	
 		}
