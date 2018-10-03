@@ -230,8 +230,6 @@
 			align-items: center;
 			margin-top: 5px;
 			padding: 5px;
-			padding-left: 10%;
-			padding-right: 10%;
 			
 		}
 
@@ -443,6 +441,8 @@
 				left: 20%;
 			}
 
+		}
+
 		@media screen and (max-width: 620px) {
 			.progress-line {
 				flex-direction: column;
@@ -458,7 +458,7 @@
 							url("../img/bg01.png") no-repeat center;
 			}
 
-
+		}
 		
 		@media screen and (max-width: 575px) {
 			.wrapper {
